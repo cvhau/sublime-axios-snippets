@@ -1,0 +1,7 @@
+{
+  "name": "sublime-axios-snippets",
+  "version": "1.0.0",
+  "description": "A collection of axios API snippets for Sublime Text",
+  "author": "Hau Van <cvhau.tt@gmail.com>",
+  "license": "MIT",
+}

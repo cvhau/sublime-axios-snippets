@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[
+axios.create({
+  baseURL: ${1:'base-url'},
+  timeout: ${2:5000},
+  headers: {
+    ${3:'X-Requested-With': 'XMLHttpRequest'},
+  }
+});
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>axios.create</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.js</scope>
+    <!-- Optional: Set description of the snippet -->
+    <description>axios.create({ ... });</description>
+</snippet>

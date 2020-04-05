@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[
+axios.head(${1:'url'}).then((${2:response}) => {
+  ${3:// TODO}
+}).catch((${4:error}) => {
+  ${5:console.error(error);}
+}).finally(() => {
+  ${6:// TODO}
+});
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>axios.head</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.js</scope>
+    <!-- Optional: Set description of the snippet -->
+    <description>axios.head({ ... });</description>
+</snippet>

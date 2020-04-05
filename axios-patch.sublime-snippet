@@ -1,0 +1,19 @@
+<snippet>
+    <content><![CDATA[
+axios.patch(${1:'url'}${2:, {
+  ${3:key: 'value',}
+\}}).then((${4:response}) => {
+  ${5:// TODO}
+}).catch((${6:error}) => {
+  ${7:console.error(error);}
+}).finally(() => {
+  ${8:// TODO}
+});
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>axios.patch</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.js</scope>
+    <!-- Optional: Set description of the snippet -->
+    <description>axios.patch({ ... });</description>
+</snippet>

@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+new Promise((resolve, reject) => {
+  ${1:// TODO}
+});
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>promise new</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.js</scope>
+    <!-- Optional: Set description of the snippet -->
+    <description>new Promise(...);</description>
+</snippet>
